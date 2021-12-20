@@ -43110,13 +43110,11 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Dashboard Component"),
-            ]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("Bienvenido")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    I'm a dashboard component.\n                "
+                "\n                    Sistema para el registro de Estudiantes y Materias\n                "
               ),
             ]),
           ]),
