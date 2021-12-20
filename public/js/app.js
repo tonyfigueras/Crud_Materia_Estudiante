@@ -5304,25 +5304,11 @@ __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.
 window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
 
 
- //import {createApp} from 'vue';
-//import VueToast from 'vue-toast-notification';
-// Import one of the available themes
-//import 'vue-toast-notification/dist/theme-default.css';
-//import 'vue-toast-notification/dist/theme-sugar.css';
 
 
-window.swal = (sweetalert2__WEBPACK_IMPORTED_MODULE_1___default()); //const app = createApp({});
-//app.use(VueToast);
-//import VueToast from "vue-toast-notification";
-// Import one of the available themes
-//import 'vue-toast-notification/dist/theme-default.css';
-//import "vue-toast-notification/dist/theme-sugar.css";
-//const app = createApp({});
-//app.use(VueToast);
-
+window.swal = (sweetalert2__WEBPACK_IMPORTED_MODULE_1___default());
 Vue.use((vuetify__WEBPACK_IMPORTED_MODULE_2___default()));
-Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]); //Vue.use(VueToast);
-
+Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]);
 var routes = [{
   path: '/dashboard',
   component: (__webpack_require__(/*! ./components/Dashboard.vue */ "./resources/js/components/Dashboard.vue")["default"])
@@ -5347,15 +5333,6 @@ var app = new Vue({
   router: router,
   vuetify: new (vuetify__WEBPACK_IMPORTED_MODULE_2___default())()
 });
-/*
-window.Vue = require('vue').default;
-
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
-const app = new Vue({
-    el: '#app',
-});*/
 
 /***/ }),
 
